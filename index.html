@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="parent">
+                <h1>Finally! The Wait is Over</h1>
+                <img src="./Assets/Candle.png" alt="" class="candle">
+                <img src="./Assets/Candle.png" alt="" class="candle">
+                <img src="./Assets/Candle.png" alt="" class="candle">
+                <img id="goat" src="./Assets/Goat.png" alt="">
+            </div>
+        </div>
+
+        <!-- Goats Going Section -->
+        <div class="section2">
+            <div class="img-box">
+                <div class="goats-box">
+                    <img src="./Assets/Goat.png" alt="">
+                    <img src="./Assets/Brown goat.png" alt="">
+                    <img src="./Assets/Goat.png" alt="">
+                    <img src="./Assets/Brown goat.png" alt="">
+                </div>
+            <img class="man" src="./Assets/Man_with_goat.png" alt="">
+
+            </div>
+        </div>
+
+        <div class="image-section">
+            <img src="./Assets/Sheeps-image.png" alt="Cover Image" class="cover-image">
+            <video src="./Assets/Sheeps-video.mp4" class="cover-video" loop ></video>
+                <div class="message">
+                    <p>Aaj Tou Apun Ko VIP Treatment Milega!</p>
+                </div>
+        </div>  
+
+        <div class="section-road">
+            <div class="road-imgs">
+                <img class="suzuki" src="./Assets/Suzuki.png" alt="">
+            <img class="car" src="./Assets/Car.png" alt="">
+            </div>
+        </div>
+        <audio id="road-audio" loop>
+            <source src="./Assets/Car-sound.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="wish">
+            <div class="masjid">
+               <img src="./Assets/Masjid.png" alt="">
+            </div>
+            <div class="wish-text">
+                <p>Wishing you all a fantastic Eid ul-Adha filled with joy, laughter, and great moments. May your celebrations be lit, your plates full, and your hearts even fuller.</p>
+                <p>Cheers!</p>
+                <p>"Eid Mubarak!" <br>From Haseeb & Moiz</p>
+            </div>
+        </div>
+
+        <div class="form-main">
+            <div class="form-section">
+                <img class="bbq1" src="./Assets/bbq.png" alt="">
+                <img class="bbq2" src="./Assets/bbq.png" alt="">
+                <h1>ڈبے میں ڈبّا ڈبے میں پاپڑ
+                    <br>  کتنا کلو بھیجوا رہے ہو گوشت کا  شاپڑ؟</h1>
+                <form id="meatForm">
+                    <input type="text" id="userName" placeholder="Enter your Name" required>
+                    <input type="number" id="meatQuantity" placeholder="Quantity of Meat in KG" required>
+                    <button id="submit" type="submit">Add</button>
+                </form>
+                <table id="Table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Meat Quantity (KG)</th>
+                            <th>Done</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script type="module" src="firebase.mjs"></script>
+    <script src="script.js"></script>
+</body>
+</html>
