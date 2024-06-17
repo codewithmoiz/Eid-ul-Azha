@@ -555,10 +555,10 @@ body, body #main{
         top: -85px;
         left: 60px;
     }
-    .hero .parent img#goat{
+    /* .hero .parent img#goat{
         width: 350px;
         top:250px;
-    }
+    } */
     .section2 .img-box{
         bottom: 60px;
      }
@@ -679,6 +679,22 @@ body, body #main{
 }
 }
 
+.hero-section{
+    height: 821px !important;
+}
+.parent .hero-heading-js{
+    font-size: 45px;
+    line-height: 1.2em;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    width: 90%;
+    /* background-color: red; */
+}
+
+.hero .parent .goat-img-js{
+    width: 350px !important;
+    top:420px !important;
+}
 .form-main{
     width: 100%;
     min-height: 100vh;

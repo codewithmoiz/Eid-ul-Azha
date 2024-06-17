@@ -250,3 +250,8 @@ let wishNaat = new Audio('./Assets/Wish-audio.m4a')
         }
     });
 
+if(window.innerHeight <= 825 && window.innerWidth <= 360){
+    document.querySelector('.hero').classList.add('hero-section')
+    document.querySelector('img#goat').classList.add('goat-img-js')
+    document.querySelector('.parent h1').classList.add('hero-heading-js')
+}
