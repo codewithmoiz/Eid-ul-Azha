@@ -679,6 +679,26 @@ body, body #main{
 }
 }
 
+@media (max-width: 360px), (max-height: 825px) {
+    .hero{
+        height: 800px !important;
+    }
+    .hero .parent img#goat{
+        width: 350px !important;
+        top:420px !important;
+    }
+    .parent h1{
+        font-size: 45px;
+        line-height: 1.2em;
+        padding-bottom: 25px;
+        padding-left: 0px;
+        width: 90%;
+        /* background-color: red; */
+    }
+    .section2{
+        height: 800px;
+    }
+}
 .hero-section{
     height: 821px !important;
 }

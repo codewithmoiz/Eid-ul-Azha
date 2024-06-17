@@ -1,3 +1,10 @@
+
+// if(window.innerHeight <= 825 && window.innerWidth <= 360){
+//     document.querySelector('.hero').classList.add('hero-section')
+//     document.querySelector('img#goat').classList.add('goat-img-js')
+//     document.querySelector('.parent h1').classList.add('hero-heading-js')
+// }
+
 const lenis = new Lenis({
     duration: 1.2,
     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t))
@@ -64,7 +71,7 @@ let tl = gsap.timeline();
             scrub: 3,
         }
     });
-    if(window.innerWidth >= 360 && window.innerWidth <= 400){
+    if((window.innerWidth >= 360 && window.innerWidth <= 400) && window.innerHeight <= 825){
         tl.to('.parent #goat', {
             top: 750,
             x: 150,
@@ -79,7 +86,7 @@ let tl = gsap.timeline();
             }
         }); 
     }
-    if(window.innerWidth > 0 && window.innerWidth <= 365){
+    if(window.innerWidth <= 360 && window.innerHeight <= 825){
         tl.to('.parent #goat', {
             top: 750,
             x: 65,
@@ -249,9 +256,3 @@ let wishNaat = new Audio('./Assets/Wish-audio.m4a')
             scrub: 3,
         }
     });
-
-if(window.innerHeight <= 825 && window.innerWidth <= 360){
-    document.querySelector('.hero').classList.add('hero-section')
-    document.querySelector('img#goat').classList.add('goat-img-js')
-    document.querySelector('.parent h1').classList.add('hero-heading-js')
-}
