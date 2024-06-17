@@ -360,7 +360,7 @@ body, body #main{
 /* Haseeb's Code  End*/
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .hero .parent{
         height: 100%;
         width: 100%;
@@ -523,7 +523,7 @@ body, body #main{
     left: 720px;
 }
 }
-@media (max-width: 365px) {
+@media (max-width: 375px) {
     .hero .parent{
         height: 100%;
         width: 100%;
@@ -818,7 +818,7 @@ th, td {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .form-section {
         width: 95%;
         height: 100vh;
@@ -881,7 +881,7 @@ th, td {
     }
 }
 
-@media (max-width: 365px) {
+@media (max-width: 375px) {
     .bbq1 {
         width: 15vw;
         position: absolute;
