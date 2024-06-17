@@ -79,7 +79,7 @@ let tl = gsap.timeline();
             }
         }); 
     }
-    if(window.innerWidth <= 360){
+    if(window.innerWidth > 0 && window.innerWidth <= 365){
         tl.to('.parent #goat', {
             top: 750,
             x: 65,
