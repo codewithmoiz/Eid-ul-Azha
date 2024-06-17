@@ -67,7 +67,7 @@ let tl = gsap.timeline();
             scrub: 3,
         }
     });
-    if(window.innerWidth <= 420){
+    if(window.innerWidth <= 400){
         tl.to('.parent #goat', {
             top: 750,
             x: 150,

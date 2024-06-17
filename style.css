@@ -360,7 +360,7 @@ body, body #main{
 /* Haseeb's Code  End*/
 }
 
-@media (max-width: 420px) {
+@media (max-width: 400px) {
     .hero .parent{
         height: 100%;
         width: 100%;
@@ -818,7 +818,7 @@ th, td {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 400px) {
     .form-section {
         width: 95%;
         height: 100vh;
