@@ -681,7 +681,7 @@ body, body #main{
 
 @media (max-width: 360px), (max-height: 825px) {
     .hero{
-        height: 800px !important;
+        height: 750px !important;
     }
     .hero .parent img#goat{
         width: 350px !important;
