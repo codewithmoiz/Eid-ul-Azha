@@ -182,7 +182,7 @@ body, body #main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .road-imgs{
     height: 100vh;
@@ -738,9 +738,20 @@ body, body #main{
         top: 500px;
         left: 750px;
     }
-
-
-
+}
+@media (max-width: 360px) and (max-height: 725px) {
+     .section-road .suzuki{
+        width: 250px;
+        position: absolute;
+        top: 470px;
+        left: 500px;
+    }
+    .section-road .car{
+        width:250px;
+        position: absolute;
+        top: 460px;
+        left: 750px;
+    }
 }
 
 /* .hero-section{
