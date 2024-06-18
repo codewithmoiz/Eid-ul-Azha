@@ -88,7 +88,7 @@ let tl = gsap.timeline();
     }
     if(window.innerWidth <= 360 && window.innerHeight <= 825){
         tl.to('.parent #goat', {
-            y: 750,
+            y: 780,
             x: 40,
             transform: "rotateY(180deg) scale(0.6)",
             scrollTrigger: {
