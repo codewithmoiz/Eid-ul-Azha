@@ -71,7 +71,7 @@ let tl = gsap.timeline();
             scrub: 3,
         }
     });
-    if((window.innerWidth >= 360 && window.innerWidth <= 400) && window.innerHeight <= 825){
+    if(window.innerWidth >= 360 && window.innerWidth <= 400){
         tl.to('.parent #goat', {
             top: 750,
             x: 150,
@@ -88,9 +88,9 @@ let tl = gsap.timeline();
     }
     if(window.innerWidth <= 360 && window.innerHeight <= 825){
         tl.to('.parent #goat', {
-            top: 750,
-            x: 65,
-            transform: "rotateY(180deg) scale(0.8)",
+            y: 750,
+            x: 40,
+            transform: "rotateY(180deg) scale(0.6)",
             scrollTrigger: {
                 trigger: '.section2',
                 scroller: "body",
