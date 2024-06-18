@@ -761,13 +761,13 @@ body, body #main{
      .section-road .suzuki{
         width: 250px;
         position: absolute;
-        top: 470px;
+        top: 400px;
         left: 500px;
     }
     .section-road .car{
         width:250px;
         position: absolute;
-        top: 460px;
+        top: 390px;
         left: 750px;
     }
 }
