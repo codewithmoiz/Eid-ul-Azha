@@ -772,6 +772,7 @@ body, body #main{
     padding-top: 50px;
     text-align: center;
     position: relative;
+    overflow-y: auto;
 }
 
 .bbq1 {
@@ -841,9 +842,6 @@ button {
     font-weight: 550;
     border: none;
     border-radius: 6px;
-}
-.table-container{
-    overflow-y: auto;
 }
 table {
     width: 100%;
